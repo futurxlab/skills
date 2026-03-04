@@ -1,0 +1,13 @@
+{
+  "autoApprove": {
+    "bash": [
+      "curl -s *",
+      "python3 << 'EOF'*",
+      "gh api *",
+      "rm -rf ~/.claude/skills/ai-briefing/workspace/temp/*"
+    ],
+    "paths": [
+      "/Users/akjol/.claude/skills/ai-briefing/workspace/**"
+    ]
+  }
+}
